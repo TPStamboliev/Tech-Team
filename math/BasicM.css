@@ -15,6 +15,7 @@ article {
 
 body{
     text-align: center;
+    color: lightgreen;
 }
 .topnav a{
     position: relative;
@@ -24,7 +25,8 @@ body{
     font-size: 30px;
     text-decoration:none;
     box-shadow: 2px;
+    color: lightgreen;
 }
 .topnav{
-    
+    color: lightgreen;
 } 
