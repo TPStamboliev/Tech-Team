@@ -1,0 +1,30 @@
+ol{
+    font-size: 35px;
+}
+ul{
+    font-size: 45px;
+}
+header{
+    position: relative;
+    font-size: xx-large;
+}
+
+article {
+    position: relative;
+}
+
+body{
+    text-align: center;
+}
+.topnav a{
+    position: relative;
+    float: center;
+    text-align: center;
+    padding: 60px 70px;
+    font-size: 30px;
+    text-decoration:none;
+    box-shadow: 2px;
+}
+.topnav{
+    
+} 
