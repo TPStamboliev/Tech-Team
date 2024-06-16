@@ -1,36 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
-  body{
-    background-color:aqua;
-  }
-  </style>
-  <title>Learn C++</title>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li>Learn C++
+  <head>
+    <link rel="stylesheet" href="../math/Navbar.css">
+    <style>
+      body{
+        text-align: none;
+        background-color: #108adbcb;
+      }
+      p {
+        font-size: 25px;
+      }
+      li {
+        font-size: 25px;
+      }
+      .text {
+        display: inline-block;
+        top: 10%;
+        position: absolute;
+      }
+    </style>
+      <title>Learn C++</title>
+  </head>
+    <body>
+      <div class="navbar">
+        <img src="../HP/Logo.png" class="Logo" alt="Logo">
         <ul>
-          <li>What is C++?</li>
-          <li>Variables and Data Types</li>
-          <li>Operators and Control Structures</li>
-          <li>Functions</li>
-          <li>Arrays and Vectors</li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-    <h2>What is C++?</h2>
-    <p>C++ is a high-performance, compiled, and general-purpose programming language. It was developed by Bjarne Stroustrup as an extension of the C programming language.</p>
-    <h2>Variables and Data Types</h2>
-    <p>In C++, a variable is a named storage location that holds a value. C++ has several built-in data types, including int, float, char, and bool.</p>
-    <h2>Operators and Control Structures</h2>
-    <p>C++ has various operators for performing arithmetic, comparison, logical, and assignment operations. It also has control structures such as if-else statements, switch statements, and loops (for, while, do-while).</p>
-    <h2>Functions</h2>
-    <p>In C++, a function is a block of code that can be called multiple times from different parts of a program. Functions can take arguments and return values.</p>
-    <h2>Arrays and Vectors</h2>
-    <p>In C++, an array is a collection of elements of the same data type stored in contiguous memory locations. A vector is a dynamic array that can grow or shrink in size as elements are added or removed.</p>
-  </body>
+        <li><a href="../HP/HP.html">Main Menu</a></li>
+        <li><a href="LearnP.html" id="active">Learn</a></li>
+        <li><a href="Tests.html">Tests</a></li>
+        <li><a href="../HP/feedback.html">Feedback</a></li>
+      </ul>
+      </div>
+      <div class="text">
+      <h1>What is C++?</h1>
+      <p>C++ is a high-performance, compiled, and general-purpose programming language. It was developed by Bjarne Stroustrup as an extension of the C programming language.</p>
+      <h1>Variables and Data Types</h1>
+      <p>In C++, a variable is a named storage location that holds a value. C++ has several built-in data types, including int, float, char, and bool.</p>
+      <h1>Operators and Control Structures</h1>
+      <p>C++ has various operators for performing arithmetic, comparison, logical, and assignment operations. It also has control structures such as if-else statements, switch statements, and loops (for, while, do-while).</p>
+      <h1>Functions</h1>
+      <p>In C++, a function is a block of code that can be called multiple times from different parts of a program. Functions can take arguments and return values.</p>
+      <h1>Arrays and Vectors</h1>
+      <p>In C++, an array is a collection of elements of the same data type stored in contiguous memory locations. A vector is a dynamic array that can grow or shrink in size as elements are added or removed.</p>
+      <h1>Array Declaration:</h1>
+      <ul>
+        <li>To declare an array, specify the data type, the array name, and the number of elements it should store.</li>
+        <li>Syntax: dataType arrayName[arraySize];</li>
+        <li>Example: int x[6]; declares an integer array named x with a size of 6.</li>
+      </ul>
+      <h1>Accessing Array Elements:</h1>
+      <ul>
+        <li>Each element in an array is associated with an index (starting from 0).</li>
+        <li>Access elements using the syntax: array[index].</li>
+        <li>For example, x[0] is the first element, and x[5] is the last element.</li>
+      </ul>
+      <h1>Operator "While"</h1>
+      <ul>
+        <li>"While" repeatedly executes a block of code as long as a specified condition remains true.</li>
+        <li>It evaluates the condition before entering the loop body.</li>
+        <li>If the condition is false initially, the loop won’t execute at all.</li>
+      </ul>
+      <h1>Operator "Do"</h1>
+      <ul>
+        <li>"Do"executes its body at least once, regardless of the condition.</li>
+        <li>It evaluates the condition after executing the loop body.s</li>
+      </ul>
+    </div>
+    </body>
 </html>

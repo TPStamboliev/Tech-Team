@@ -3,6 +3,34 @@
 <head>
     <link rel="stylesheet" href="../BC.css">
     <link rel="stylesheet" href="pr.css">
+    <link rel="stylesheet" href="../math/Navbar.css">
+    <style>
+    .About{
+    width: 300px;
+    height: 100px;
+    font-size: 36px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 43%;
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .About > p{
+    text-align: center;
+  }
+  .About:hover{
+    transition-duration: 0.25s;
+    background-color: #00adb5;
+  }
+  .About > a{
+    width: 100%;
+    height: 100%;
+  }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -21,8 +49,19 @@
             <div></div>
         </dic>
     </div>
-    <a href="tests.html"><div class="button" id="tests">Tests</div></a>
-    <a href="LearnP.html"><div class="button" id="basics">Learn Basics</div></a>
+    <div class="navbar">
+        <img src="../HP/Logo.png" class="Logo" alt="Logo">
+        <ul>
+        <li><a href="../HP/HP.html">Main Menu</a></li>
+        <li><a href="LearnP.html">Learn</a></li>
+        <li><a href="Tests.html">Tests</a></li>
+        <li><a href="../HP/feedback.html">Feedback</a></li>
+    </ul>
+    </div>
+    <a href="../programming/AboutPage.html">
+        <div class="About">
+            <p>About Us</p>
+        </div></a>
 </body>
 </html>
 

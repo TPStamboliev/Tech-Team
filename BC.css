@@ -96,7 +96,7 @@ body {
   animation: animate 8s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animate{
   0% {
     transform: scale(0) translateY(0) rotate(0);
     opacity: 1;

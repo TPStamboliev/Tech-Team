@@ -94,7 +94,7 @@ body{
     position: absolute;
     top: 15%;
     left: 25%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #ffffff80;
     border-radius: 5%;
   }
 
@@ -121,7 +121,7 @@ body{
 
   #email{
     position: relative;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #ffffff80;
     border:none;
     height: 1em;
     width:100%;
@@ -143,17 +143,17 @@ body{
     top: 50%;
     left:auto;
     height: 15em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #ffffff80;
     border:none;
   }
 
   #submit{
-    position: absolute;
-    top: 80%;
-    left: 40%;
+    position: relative;
+    top: 20%;
+    left: 41.8763%;
     width: 15em;
     height: 5em;
-    background-color: rgba(0, 128, 0, 0.5);
+    background-color: #00800080;
     border: none;
     border-radius: 20%;
     font-size: 10pt;
@@ -161,6 +161,6 @@ body{
 
   #submit:hover{
     transition: 0.25s;
-    background-color: rgba(0, 128, 0, 1);
+    background-color: #008000;
     cursor: pointer;
   }

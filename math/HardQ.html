@@ -1,85 +1,109 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Navbar.css">
         <style>
-            .topnav a{
-            float: center;
-            text-align: center;
-            padding: 60px 70px;
-            font-size: 30px;
-            text-decoration:none;
-            box-shadow: 2px;
+            body{
+                background-color: #108adbcb;
         }
-        .topnav{
-            background-color: #0079ca;
-        }body{
-            text-align: center;
-            background-color: #2e77ae;
-        }
+
+        .text {
+                display: inline-block;
+                top: 20%;
+                position: absolute;
+            }
+
+            h1 {
+                text-align: center;
+                position: relative;
+                left: -10%;
+                font-size: 50px;
+            }
+
+            label {
+                font-size: 35px;
+            }
         </style>
 </head>
 <body>
-    <div class="topnav">
-        <a href="mathquiz.html">Back To Test Selection Page?</a>
-        <a href="basicprog.html">Programming</a>
-        <a href="rulesM.html">Lessons About Maths</a>
-        <a href="basicM.html">Basic info About Maths</a>
-        <br>
-        <a href="HistoryM.html">History About Maths</a>
-    </div>
+    <div class="navbar">
+        <img src="../HP/Logo.png" class="Logo" alt="Logo">
+        <ul>
+        <li><a href="../HP/HP.html">Main Menu</a></li>
+        <li><a href="LearnM.html">Learn</a></li>
+        <li><a href="mathquiz.html" id="active">Tests</a></li>
+        <li><a href="../HP/feedback.html">Feedback</a></li>
+    </ul>
     <h1>Expert Maths test</h1>
-    <label>Q.1 if ∢BCA = ∢CAB and ∢ABC = y; y = (2x+8).2=80, find ∢BCA - ∢ABC</label>
-    <br>
-    <input type="radio" name="q1" class="a">
-    <label for="a">65°</label>
-    <input type="radio" name="q1" class="b">
-    <label for="b">66°</label>
-    <input type="radio" name="q1" class="c">
-    <label for="c">67°</label>
-    <br>
-    <label>Q.2 Find the Angle <br> <img src="q2math.jpg" width="15%" height="20%"></label>
-    <br>
-    <textarea rows="10" cols="50"></textarea>
-    <br>
-    <label>Q.3 Solve the equation: 3(9!+2x)=11, find x.</label>
-    <br>
-    <input type="radio" name="q3" class="a">
-    <label for="a">a) x=(-181440)</label>
-    <input type="radio" name="q3" class="b">
-    <label for="b">b) x=(-181430)</label>
-    <input type="radio" name="q3" class="c">
-    <label for="c">c) x=(-181441)</label>
-    <br>
-    <label>Q.4 solve the equation: (2x-3)³-8x(x-2)²=2(x-5,5)</label>
-    <br>
-    <input type="radio" name="q4" class="a">
-    <label for="a">a) x1=-1 x2=4</label>
-    <input type="radio" name="q4" class="b">
-    <label for="b">b) x1=1 x2=4</label>
-    <input type="radio" name="q4" class="c">
-    <label for="c">c) x1=-1 x2=-4</label>
-    <br>
-    <label>Q.5 Solve the equation: (3x²-2x-1)²-11(3x²-2x-1)+28=0</label>
-    <br>
-    <textarea rows="10" cols="50"></textarea>
-    <br>
-    <label>Q.6 Solve the equation: (2x²+5x)²-4(3x²+5x)-21=0</label>
-    <br>
-    <textarea rows="10" cols="50"></textarea>
-    <br>
-    <label>Q.7 The number(-3) is NOT the root of:</label>
-    <br>
-    <input type="radio" name="q7" class="a">
-    <Label for="a">a) 2x² + 5x - 3 = 0</Label>
-    <input type="radio" name="q7" class="b">
-    <Label for="b">b) 3x² + 7x - 6 = 0</Label>
-    <input type="radio" name="q7" class="c">
-    <Label for="c">c) 4x² + 11x - 3 = 0</Label>
-    <input type="radio" name="q7" class="d">
-    <Label for="d">d) 4x² - 9x - 9 = 0</Label>
-    <br>
-    <label>Q.8 Solve the equation: 10!/(3!+5!) </label>
-    <br>
-    <textarea rows="10" cols="50"></textarea>
+    </div>
+    <div class="text">
+        <b><label>Q.1 if ∢BCA = ∢CAB and ∢ABC = y; y = (2x+8).2=80, find ∢BCA - ∢ABC</label></b>
+        <br>
+        <input type="radio" name="q1" class="a">
+        <label for="a">65°</label>
+        <input type="radio" name="q1" class="b">
+        <label for="b">66°</label>
+        <input type="radio" name="q1" class="c">
+        <label for="c">67°</label>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.2 Find the Angle <br> <img src="q2math.jpg" width="15%" height="20%"></label></b>
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.3 Solve the equation: 3(9!+2x)=11, find x.</label></b>
+        <br>
+        <input type="radio" name="q3" class="a">
+        <label for="a">a) x=(-181440)</label>
+        <input type="radio" name="q3" class="b">
+        <label for="b">b) x=(-181430)</label>
+        <input type="radio" name="q3" class="c">
+        <label for="c">c) x=(-181441)</label>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.4 solve the equation: (2x-3)³-8x(x-2)²=2(x-5,5)</label></b>
+        <br>
+        <input type="radio" name="q4" class="a">
+        <label for="a">a) x1=-1 x2=4</label>
+        <input type="radio" name="q4" class="b">
+        <label for="b">b) x1=1 x2=4</label>
+        <input type="radio" name="q4" class="c">
+        <label for="c">c) x1=-1 x2=-4</label>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.5 Solve the equation: (3x²-2x-1)²-11(3x²-2x-1)+28=0</label></b>
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.6 Solve the equation: (2x²+5x)²-4(3x²+5x)-21=0</label></b>
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.7 The number(-3) is NOT the root of:</label></b>
+        <br>
+        <input type="radio" name="q7" class="a">
+        <Label for="a">a) 2x² + 5x - 3 = 0</Label>
+        <input type="radio" name="q7" class="b">
+        <Label for="b">b) 3x² + 7x - 6 = 0</Label>
+        <input type="radio" name="q7" class="c">
+        <Label for="c">c) 4x² + 11x - 3 = 0</Label>
+        <input type="radio" name="q7" class="d">
+        <Label for="d">d) 4x² - 9x - 9 = 0</Label>
+        <br>
+        <br>    
+        <br>
+        <b><label>Q.8 Solve the equation: 10!/(3!+5!) </label></b>
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+    </div>
 </body>
 </html>

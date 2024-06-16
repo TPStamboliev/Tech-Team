@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Navbar.css">
             <style>
-                .topnav a{
-                float: center;
-                text-align: center;
-                padding: 60px 70px;
-                font-size: 30px;
-                text-decoration:none;
-                box-shadow: 2px;
+            body{
+
+                background-color: #108adbcb;
             }
-            .topnav{
-                background-color: #0079ca;
-            }body{
+
+            .text {
+                display: inline-block;
+                top: 20%;
+                position: absolute;
+            }
+
+            h1 {
                 text-align: center;
-                background-color: #2e77ae;
+                position: relative;
+                left: -10%;
+                font-size: 50px;
+            }
+
+            label {
+                font-size: 35px;
             }
             </style>
     </head>
     <body>
-        <div class="topnav">
-            <a href="mathquiz.html">Back To Test Selection Page?</a>
-            <a href="../programming/pr.html">Programming</a>
-            <a href="rulesM.html">Lessons About Maths</a>
-            <a href="basicM.html">Basic info About Maths</a>
-            <br>
-            <a href="HistoryM.html">History About Maths</a>
-        </div>
+        <div class="navbar">
+            <img src="../HP/Logo.png" class="Logo" alt="Logo">
+            <ul>
+            <li><a href="../HP/HP.html">Main Menu</a></li>
+            <li><a href="LearnM.html">Learn</a></li>
+            <li><a href="mathquiz.html" id="active">Tests</a></li>
+            <li><a href="../HP/feedback.html">Feedback</a></li>
+        </ul>
         <h1>Beginner test</h1>
-        <label>Q.1 What's the answer? (2x-8)(3x+9)=0</label>
+        </div>
+        <div class="text">  
+        <b><label>Q.1 What's the answer? (2x-8)(3x+9)=0</label></b>
         <br>
         <input type="radio" name="q1" class="a">
         <label for="a">a) x1=-3 x2=4</label>
@@ -37,7 +47,9 @@
         <input type="radio" name="q1" class="c">
         <label for="c">c) x1=-4 x2=-3</label>
         <br>
-        <label>Q.2 Stoyan has 2x games, if he bought 3 more he would have 3x. How many games did Stoyan own originally?</label>
+        <br>    
+        <br>
+        <b><label>Q.2 Stoyan has 2x games, if he bought 3 more he would have 3x. How many games did Stoyan own originally?</label></b>
         <br>
         <input type="radio" name="q2" class="a">
         <label for="a">a) 3</label>
@@ -46,7 +58,9 @@
         <input type="radio" name="q2" class="c">
         <label for="c">c) 12</label>
         <br>
-        <label>Q.3 solve the equation: 4x²-4x+1=0</label>
+        <br>    
+        <br>
+        <b><label>Q.3 solve the equation: 4x²-4x+1=0</label></b>
         <br>
         <input type="radio" name="q3" class="a">
         <label for="a">a) x=1/2</label>
@@ -55,7 +69,9 @@
         <input type="radio" name="q3" class="c">
         <label for="c">c) x=2/3</label>
         <br>
-        <label>Q.4 If ∢ABC is 37° and ∢BCA is twice as much, how many degrees is ∢CBA?</label>
+        <br>    
+        <br>
+        <b><label>Q.4 If ∢ABC is 37° and ∢BCA is twice as much, how many degrees is ∢CBA?</label></b>
         <br>
         <input type="radio" name="q4" class="a">
         <label for="a">a) ∢CBA=67°</label>
@@ -64,8 +80,10 @@
         <input type="radio" name="q4" class="c">
         <label for="c">c) ∢CBA=69°</label>
         <br>
-        <label>Q.5 If little John wants to buy 5kg galvanized square steel for his home renovations, and 1kg is worth 23$, 
-            How much money does he need to buy 5kg?</label>
+        <br>    
+        <br>
+        <b><label>Q.5 If little John wants to buy 5kg galvanized square steel for his home renovations, and 1kg is worth 23$, 
+            How much money does he need to buy 5kg?</label></b>
         <br>
         <input type="radio" name="q5" class="a">
         <label for="a">a) 114$</label>
@@ -74,7 +92,9 @@
         <input type="radio" name="q5" class="c">
         <label for="c">c) 116$</label>
         <br>
-        <label>Q.6 solve the equation: 6x²-3x+5=0</label>
+        <br>    
+        <br>
+        <b><label>Q.6 solve the equation: 6x²-3x+5=0</label></b>
         <br>
         <input type="radio" name="q6" class="a">
         <label for="a">a) There are no possible answers</label>
@@ -83,7 +103,9 @@
         <input type="radio" name="q6" class="c">
         <label for="c">c) x1=3 x2=0.1</label>
         <br>
-        <label>Q.7 if ∢BCA = 34° and ∢BAC = 79°, how many degrees is ∢CBA?</label>
+        <br>    
+        <br>
+        <b><label>Q.7 if ∢BCA = 34° and ∢BAC = 79°, how many degrees is ∢CBA?</label></b>
         <br>
         <input type="radio" name="q7" class="a">
         <label for="a">a) 57°</label>
@@ -92,7 +114,9 @@
         <input type="radio" name="q7" class="c">
         <label for="c">c) 77°</label>
         <br>
-        <label>Q.8 solve the equation: 9x²+3x-6=0</label>
+        <br>    
+        <br>
+        <b><label>Q.8 solve the equation: 9x²+3x-6=0</label></b>
         <br>
         <input type="radio" name="q8" class="a">
         <Label for="a">a) x1=-1 x2=2/3</Label>
@@ -100,5 +124,6 @@
         <label for="b">b) x1=2/5 x2=1</label>
         <input type="radio" name="q8" class="c">
         <label for="c">c) x1=2 x2=0</label>
+    </div>
     </body>
 </html>

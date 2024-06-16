@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Navbar.css">
             <style> 
-                .topnav a{
-                float: center;
-                text-align: center;
-                padding: 60px 70px;
-                font-size: 30px;
-                text-decoration:none;
-                box-shadow: 2px;
-            }
-            .topnav{
-                background-color: #0079ca;
-            }body{
-                text-align: center;
-                background-color: #2e77ae;
+ 
+            body{
+                background-color: #108adbcb;
             }
             .tests a{
                     float: center;
@@ -25,12 +16,10 @@
                     
                 }
                 .tests{
-                    float: center;
                     text-align: center;
                     background-color: #0079ca;
-                }
-                img{
-                    float: center;
+                
+
                 }
                 .answer a{
                     float: center;
@@ -42,24 +31,33 @@
                 .answer{
                     background-color: #0079ca;
                 }
+                .text {
+                    position: absolute;
+                    display: inline-block;
+                    top: 10%;
+                    left: 28.75%;
+                    text-align: center;
+                }
             </style>
     </head>
     <body>
-        <div class="topnav">
-            <a href="../HP/HP.html">Back To Home Page?</a>
-            <a href="../programming/pr.html">Programming</a>
-            <a href="rulesM.html">Lessons About Maths</a>
-            <a href="basicM.html">Basic info About Maths</a>
-            <br>
-            <a href="HistoryM.html">History About Maths</a>
+        <div class="navbar">
+            <img src="../HP/Logo.png" class="Logo" alt="Logo">
+            <ul>
+            <li><a href="../HP/HP.html">Main Menu</a></li>
+            <li><a href="LearnM.html">Learn</a></li>
+            <li><a href="mathquiz.html">Tests</a></li>
+            <li><a href="../HP/feedback.html">Feedback</a></li>
+        </ul>
         </div>
+        <div class="text">
         <h1>Want to Test yourself? Try out one of out tests!</h1>
         <div class="tests">
             <a href="BegQ.html">Beginner test</a>
             <a href="MidQ.html">Intermediate test</a>
             <a href="HardQ.html">Expert test</a>
         </div>
-        <div class="images">
+        <div>
         <img src="mathquiz1.jpg" height="500">
         <img src="mathquiz2.jpg" height="500">
         <img src="mathquiz3.jpg" height="500">
@@ -67,5 +65,6 @@
         <div class="answer">
             <a href="ansM.html">Check Your Answers!</a>
         </div>
+    </div>
     </body>
 </html>

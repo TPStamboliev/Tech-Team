@@ -24,11 +24,11 @@
     margin-left: -10%;
 }
 
-img {
+.Logo {
     float: left;
     position: absolute;
 width: 300px;
-  height: 120px;
+  height: 140px;
 }
 .navbar {
     position: absolute;
