@@ -3,11 +3,26 @@ body {
     padding: 0;
   }
 
-.wrapper {
+.wrapper1 {
   position: absolute;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  height: 200%;
+  background: linear-gradient(90deg, #020001 0%, #090979 35%, #00d4ff 100%);
+
+}
+
+.wrapper2 {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  background: linear-gradient(90deg, #020001 0%, #090979 35%, #00d4ff 100%);
+
+}
+
+.wrapper3 {
+  position: absolute;
+  width: 100%;
+  height: 450%;
   background: linear-gradient(90deg, #020001 0%, #090979 35%, #00d4ff 100%);
 
 }
