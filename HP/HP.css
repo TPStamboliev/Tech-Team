@@ -15,9 +15,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   background: linear-gradient(90deg, #020001 0%, #090979 35%, #00d4ff 100%);
-
 }
 
 .box div{

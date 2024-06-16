@@ -6,7 +6,6 @@ body {
 .wrapper1 {
   position: absolute;
   width: 100%;
-<<<<<<< HEAD
   height: 200%;
   background: linear-gradient(90deg, #020001 0%, #090979 35%, #00d4ff 100%);
 
@@ -24,9 +23,7 @@ body {
   position: absolute;
   width: 100%;
   height: 450%;
-=======
   height: 100%;
->>>>>>> e56b5fb2dec072d4b441ceb63975bfffc4773e77
   background: linear-gradient(90deg, #020001 0%, #090979 35%, #00d4ff 100%);
 
 }
