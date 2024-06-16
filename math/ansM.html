@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Navbar.css">
         <style>
-            .topnav a{
-            float: center;
-            text-align: center;
-            padding: 60px 70px;
-            font-size: 30px;
-            text-decoration:none;
-            box-shadow: 2px;
-        }
-        .topnav{
-            text-align: center;
-            background-color: #0079ca;
-        }h1{
+        h1{
             text-align: center;
         }
         body{
             background-color: #2e77ae;
         }
+        h1 {
+                text-align: center;
+            position: relative;
+            left: -10%;
+            font-size: 50px;
+            }
+        .text {
+            display: inline-block;
+            top: 20%;
+            position: absolute;
+            }
         </style>
 </head>
 <body>
-    <div class="topnav">
-        <a href="mathquiz.html">Back To Test Selection Page?</a>
-        <a href="../programming/pr.html">Programming</a>
-        <a href="BegQ.html">Beginner Maths test</a>
-        <a href="MidQ.html">Intermediate Maths test</a>
-        <br>
-        <a href="HardQ.html">Expert Maths test</a>
+    <div class="navbar">
+        <img src="../HP/Logo.png" class="Logo" alt="Logo">
+        <ul>
+        <li><a href="../HP/HP.html">Main Menu</a></li>
+        <li><a href="LearnM.html">Learn</a></li>
+        <li><a href="mathquiz.html">Tests</a></li>
+        <li><a href="../HP/feedback.html">Feedback</a></li>
+    </ul>
     </div>
+    <div class="text">
     <h1>Beginner Maths test Answers</h1>
     <h3>Q.1 = a) <br> Q.2 = b) <br> Q.3 = a) <br> Q.4 = a) <br> Q.5 = b) <br> Q.6 = a) <br> Q.7 = b) <br> Q.8 = a)</h3>
     <h1>Intermediate Maths test Answers</h1>
@@ -37,5 +40,6 @@
     <h1>Expert Maths test Answers</h1>
     <h3>Q.1 =  <br> Q.2 = 30°  <br> Q.3 = a) <br> Q.4 = b) <br> Q.5 = x1 = -(4/3); x2 = -1; x3 = 5/3; x4 = 2 <br> Q.6 = x1 = -(7/2); x2 = -(3/2); x3 = -1; x4=1
     <br> Q.7 = d) <br> Q.8 = 28800 or 2,88.10⁴</h3>
+    </div>
 </body>
 </html>
