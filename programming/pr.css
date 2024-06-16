@@ -1,35 +1,30 @@
-ol{
-    font-size: 35px;
-}
-ul{
-    font-size: 45px;
-}
-header{
-    position: relative;
-    font-size: xx-large;
+body {
+    background-color: blue;
+    height: 100vh;
+    margin: 0;
 }
 
-article {
-    position: relative;
+.button {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-body{
-    text-align: center;
-    color: lightgreen;
+#tests {
+    background-color: green;
 }
-.topnav a{
-    position: relative;
-    float: center;
-    text-align: center;
-    padding: 60px 70px;
-    font-size: 30px;
-    text-decoration:none;
-    box-shadow: 2px;
-    color: lightgreen;
+
+#basics {
+    background-color: orange;
 }
-.topnav{
-    color: lightgreen;
-} 
 
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
