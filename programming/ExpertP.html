@@ -197,36 +197,36 @@
     Difficulty - Hard </p>
 
     <textarea rows="40" cols="100">
-  1.
-  2.
-  3.
-  4.
-  5.
-  6.
-  7.
-  8.
-  9.
-  10.
-  11.
-  12.
-  13.
-  14.
-  15.
-  16.
-  17.
-  18.
-  19.
-  20.
-  21.
-  22.
-  23.
-  24.
-  25.
+  1.#include <iostream>
+  2.using namespace std;
+  3. 
+  4.int main() {
+  5.  
+  6.  int m;     
+  7.  double x;
+  8.  cin >> m >> x;
+  9. 
+  10. if (m <= 0  m >= 30  x <= 0 || x >= 200) {
+  11.     cout << "Incorrect input" << endl; 
+  12.     return 1;
+  13. } 
+  14.    
+  15. double arr[m];
+  16. for (int i = 0; i < m; ++i) {
+  17.     cin >> arr[i];
+  18. }
+  19.   
+  20. int count = 0;
+  21. for (int i = 0; i < m; ++i) {
+  22.     if (arr[i] == x) {
+  23.         count++;
+  24.     }
+  25. }
   26.
-  27.
-  28.
-  29.
-  30.
+  27. count << count << endl;
+  28. 
+  29.    return 0;
+  30. }
   31.
   32.
   33.
@@ -249,24 +249,25 @@
  Difficulty - Really Hard </p>
 
  <textarea rows="40" cols="100">
-  1.
-  2.
-  3.
-  4.
-  5.
-  6.
-  7.
-  8.
-  9.
-  10.
-  11.
-  12.
-  13.
-  14.
-  15.
-  16.
-  17.
-  18.
+  1.#include <iostream>
+  2. using namespace std;
+  3. int main()
+    {
+  4.    int number;
+  5.    int Factorial;
+  6.    int counter = 1;
+  7.      
+  8.    cin >> Factorial;
+  9.    number = Factorial;
+  10.      
+  11.   do
+  12    {
+  13       Factorial = Factorial * counter;
+  14.      counter++;
+  15.     }
+  16.     while(counter < number);
+  17.     cout << "Factorial(" << number << ") => " << Factorial;
+  18.}
   19.
   20.
   21.
